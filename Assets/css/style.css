@@ -1,0 +1,60 @@
+/* =========FONTS BASE========= */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --color-black: rgb(24, 24, 24);
+    --color-white: #fff;
+    --color-purple: #A288A8;
+    --color-purple-dark: #845c8d;
+}
+
+/* ==========Styles NavBar start========== */
+.navbar {
+    background-color: var(--color-black) !important;
+    padding: 15px 0 !important;
+}
+.navbar .nav-item{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.navbar .nav-item .nav-link{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-white);
+    margin: 0 15px;
+    padding: 0;
+    transition: all .4s ease-in-out;
+}
+
+.navbar .nav-item .nav-link:hover{
+    color: var(--color-purple);
+}
+
+.navbar .main-btn {
+    cursor: pointer;
+    background: var(--color-purple);
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px 35px;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all .4s ease-in-out;
+    margin-left: 24px;
+}
+.navbar .main-btn:hover{
+    background: var(--color-purple-dark);
+}
+/* ==========Styles NavBar stop========== */
+
+
+
+.logo {
+    width: 90px;
+    height: 35px;
+}
