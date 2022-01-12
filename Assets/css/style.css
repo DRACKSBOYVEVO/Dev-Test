@@ -239,6 +239,9 @@
 }
 /*============IMAGES===========*/
 
-/*======HEADER AREA START=======*/
-
-/*======HEADER AREA STOP=======*/
+/*======FOOTER AREA START=======*/
+.list-inline .list-inline-item{
+    font-size: 26px;
+    
+}
+/*======FOOTER AREA STOP=======*/
