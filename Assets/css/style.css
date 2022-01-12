@@ -54,9 +54,29 @@
 .navbar .main-btn:hover{
     background: var(--color-purple-dark);
 }
-.logo {
-    width: 90px;
-    height: 35px;
+.container img {
+    width: 210px;
+    height:100px;
+    margin-left: 550px;
+}
+
+.container .btn-hero-form{
+    text-transform: uppercase;
+    color: var(--color-white);
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 51px;
+    position: absolute;
+    width: 164px;
+    height: 50px;
+    background: #A288A8;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.container .btn-hero-form:hover {
+    background: var(--color-purple-dark);
 }
 /* ==========NAVBAR STOP========== */
 
@@ -142,10 +162,6 @@
     color: var(--color-white);
 }
 
-.about img{
-    width: 100%;
-    height: 100px;
-}
 /*========ABOUT AREA STOP========*/
 
 /*========SERVICES AREA START========*/
@@ -245,3 +261,178 @@
     
 }
 /*======FOOTER AREA STOP=======*/
+
+/*Responsive borders - border-[breakpoint]*/
+    
+/* @media (min-width: 1080px) {
+    .hero {
+        width: 100%;
+    }
+}
+
+   @media (mix-width: 1920px) {
+    .hero {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero {
+        width: 100%;
+    }
+}
+
+   @media (mix-width: 1366px) {
+    .hero {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero {
+        width: 100%;
+    }
+}
+
+   @media (mix-width: 1024px) {
+    .hero {
+        width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    .hero {
+        width: 100%;
+    }
+}
+
+@media (min-width: 414px) {
+    .hero {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+}
+
+   @media (mix-width: 816px) {
+    .hero {
+        width: 100%;
+    }
+    .container {
+        width: 100%;
+    }
+} */
+
+/*Modal*/
+    /*add full-width input fields*/
+    input[type=text],
+    input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 2px solid #ccc;
+        box-sizing: border-box;
+    }
+
+    .about .btn-form{
+        cursor: pointer;
+        text-transform: uppercase;
+        color: var(--color-white);
+        text-decoration: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 14px 51px;
+        position: absolute;
+        width: 180px;
+        height: 50px;
+        background: #A288A8;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    }
+    .about .btn-form:hover{
+        background: var(--color-purple-dark);
+        color: var(--color-white);
+    }
+    /*set styles for the cancel button*/
+    .cancelbtn {
+        padding: 14px 20px;
+        background-color: var(--color-grey);
+    }
+    /*float cancel and signup buttons and add an equal width*/
+    .cancelbtn,
+    .signupbtn {
+        cursor: pointer;
+        text-transform: uppercase;
+        color: var(--color-white);
+        text-decoration: none;
+        padding: 14px 51px;
+        width: 180px;
+        height: 50px;
+        background: #A288A8;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    .cancelbtn,
+    .signupbtn:hover{
+        background: var(--color-purple-dark);
+        color: var(--color-white);
+    }
+    /*add padding to container elements*/
+    .container {
+        padding: 16px;
+    }
+    /*define the modal’s background*/
+     
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+        padding-top: 60px;
+    }
+    /*define the modal-content background*/
+     
+    .modal-content {
+        background-color: #fefefe;
+        margin: 5% auto 15% auto;
+        border: 1px solid #888;
+        width: 80%;
+    }
+    /*define the close button*/
+     
+    .close {
+        position: absolute;
+        right: 35px;
+        top: 15px;
+        color: #000;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    /*define the close hover and focus effects*/
+     
+    .close:hover,
+    .close:focus {
+        color: var(--color-grey);
+        cursor: pointer;
+    }
+     
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+     
+    @media screen and (max-width: 300px) {
+        .cancelbtn,
+        .signupbtn {
+            width: 100%;
+        }
+    }
