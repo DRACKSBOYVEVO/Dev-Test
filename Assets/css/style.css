@@ -177,6 +177,17 @@
 
 /*========SERVICES AREA STOP========*/
 
+/*============IMAGES===========*/
+.image {
+    text-align: center;
+}
+.image img{
+    width: 100%;
+}
+.image-two {
+    text-align: end;
+}
+
 /*======HEADER AREA START=======*/
 .logo {
     width: 90px;
